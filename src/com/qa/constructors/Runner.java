@@ -6,7 +6,7 @@ public class Runner {
 		//DataType variableName = value= 
 		Person olatoke = new Person("Olatoke",10,75); //new person
 		
-		Person ade = new Person("Ade",12,90); //new person object
+		Person ade = new Person("Ade",12); //new person object
 		
 		System.out.println(olatoke.name);
 		System.out.println(olatoke.age);
