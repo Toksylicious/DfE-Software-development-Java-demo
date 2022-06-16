@@ -6,6 +6,7 @@ package com.qa.results;
 //Create the results class, this class has 5 variables, Physics, Chemistry, and Biology, total and percentage. 
 //This class should also have 2 methods:
 //Method 1 - displays the results that the person got for each exam and then the total mark..
+//Try to make the output neat and bespoke for each exam.
 //Method 2 - which finds and displays the percentage that the person received for the exams overall.
 
 //Results class created
@@ -24,7 +25,9 @@ public class Results {
 		this.total = physics + chemistry + biology;
 	}
 
-	// first method
+	// first method - the reason why the variable name is added to the 
+	//constructor is to add a name to the score when the code is ran so
+	//the output is bespoke for each exam.
 	public void methodOne() {
 		System.out.println("Physics:    " + this.physics);
 		System.out.println("Chemoistry: " + this.chemistry);
