@@ -17,9 +17,14 @@ public class Operators {
 		System.out.println(numberOne - numberTwo);
 	}
 
-	
 	// Divide
-	public void divide (double numberOne, double numberTwo) {
-		System.out.println(numberOne / numberTwo);
+
+	public void divide(double numberOne, double numberTwo) {
+		if (numberOne < numberTwo) {
+			System.out.println(numberOne / numberTwo);
+		}else {
+			System.out.println("division cannot be performed");
+		}
+
 	}
 }

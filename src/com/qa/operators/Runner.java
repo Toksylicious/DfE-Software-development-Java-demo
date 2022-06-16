@@ -8,7 +8,7 @@ public class Runner {
 		calculate.add(14,13);
 		calculate.multiply(50,7);
 		calculate.subtract(550,250);
-		calculate.divide(14,3);
+		calculate.divide(14,4);
 	}
 	
 	
